@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product Catalog</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .product {
+      display: inline-block;
+      text-align: center;
+      margin: 20px;
+    }
+
+    .product img {
+      width: 200px;
+      height: 200px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .product-name {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .product-amount {
+      font-size: 16px;
+      color: #666;
+    }
+
+    .buttons {
+      margin-top: 10px;
+    }
+
+    .button {
+      background-color: #f4a460;
+      color: #fff;
+      padding: 8px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-right: 5px;
+    }
+
+    .button:hover {
+      background-color: #ff8c00;
+    }
+  </style>
+   <script>
+    // JavaScript for handling button clicks
+    function addToWishlist(productName) {
+      // Replace this with your actual code to add the product to the wishlist
+      alert('Added ' + productName + ' to the Wishlist');
+    }
+
+    function addToCart(productName) {
+      // Replace this with your actual code to add the product to the cart
+      alert('Added ' + productName + ' to the Cart');
+    }
+  </script>
+</head>
+<body>
+  <marquee width="50%" direction="right" height="100px">
+   <b>New  Painting Products has Been Arrived</b>
+  </marquee>
+
+  </marquee>
+  <div class="container">
+    <h1>Painting</h1>
+
+    <div class="product">
+      <img src="download (9).jpeg" alt="Product 1">
+      <div class="product-name">Product 1</div>
+      <div class="product-amount">5000</div>
+      <div class="buttons">
+        <button class="button" onclick="addToWishlist('Product 1')">Add to Wishlist</button>
+        <button class="button" onclick="addToCart('Product 1')">Add to Cart</button>
+        <button class="button">Buy Now</button>
+      </div>
+    </div>
+
+    <div class="product">
+      <img src="images (2).jpeg" alt="Product 2">
+      <div class="product-name">Product 2</div>
+      <div class="product-amount">10000</div>
+      <div class="buttons">
+        <button class="button" onclick="addToWishlist('Product 2')">Add to Wishlist</button>
+        <button class="button" onclick="addToCart('Product 2')">Add to Cart</button>
+        <button class="button">Buy Now</button>
+      </div>
+    </div>
+    <div class="product">
+        <img src="images (4).jpeg" alt="Product 3">
+        <div class="product-name">Product 2</div>
+        <div class="product-amount">7000</div>
+        <div class="buttons">
+          <button class="button" onclick="addToWishlist('Product 3')">Add to Wishlist</button>
+        <button class="button" onclick="addToCart('Product 3')">Add to Cart</button>
+        <button class="button">Buy Now</button>
+    </div>
+    </div>
+    <div class="product">
+        <img src="images (3).jpeg" alt="Product 4">
+        <div class="product-name">Product 4</div>
+        <div class="product-amount">500</div>
+        <div class="buttons">
+          <button class="button" onclick="addToWishlist('Product 4')">Add to Wishlist</button>
+        <button class="button" onclick="addToCart('Product 4')">Add to Cart</button>
+        <button class="button">Buy Now</button>
+        </div>
+      </div>
+
+
+    <!-- Add more products as needed -->
+  </div>
+</body>
+</html>
